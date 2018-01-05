@@ -8,7 +8,4 @@
         define(strtoupper($key), $value);
     }
     $connection = mysqli_connect(HOST, USERNAME, PASSWORD, NAME);
-    if ($connection){
-        echo "we are connected";
-    }
-?>
+?> 
